@@ -82,7 +82,7 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="@+id/textView6"
-        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintStart_toStartOf="@+id/spinnerOrderType"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -174,17 +174,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
+    <Spinner
+        android:id="@+id/spinnerOrderType"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
-        android:ems="10"
-        android:inputType="text"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView7"
